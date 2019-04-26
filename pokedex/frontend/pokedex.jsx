@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     //testing
     const store = configureStore();
     window.store = store;
-    window.receiveAllPokemon = receiveAllPokemon;
+    // window.receiveAllPokemon = receiveAllPokemon;
     window.requestAllPokemon = requestAllPokemon;
-    window.fetchAllPokemon = APIUtil.fetchAllPokemon;
-    window.getState = store.getState;
+    // window.fetchAllPokemon = APIUtil.fetchAllPokemon;
+    // window.getState = store.getState;
     window.dispatch = store.dispatch;
-    window.selectAllPokemon = selectAllPokemon;
+    // window.selectAllPokemon = selectAllPokemon;
 
     ReactDOM.render(<Root store={store}/>, root);
 })
