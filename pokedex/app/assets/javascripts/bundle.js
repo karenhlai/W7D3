@@ -365,7 +365,8 @@ __webpack_require__.r(__webpack_exports__);
 var mapStateToProps = function mapStateToProps(state) {
   return {
     // piece of state that container subscribes to
-    pokemon: Object(_reducers_selectors__WEBPACK_IMPORTED_MODULE_2__["selectAllPokemon"])(state)
+    pokemon: Object(_reducers_selectors__WEBPACK_IMPORTED_MODULE_2__["selectAllPokemon"])(state) //ARRAY HERE, WHATS GOING ON
+
   };
 };
 

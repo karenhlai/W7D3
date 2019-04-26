@@ -6,7 +6,7 @@ import {requestAllPokemon} from '../../actions/pokemon_actions';
 
 const mapStateToProps = state => ({
     // piece of state that container subscribes to
-    pokemon: selectAllPokemon(state)
+    pokemon: selectAllPokemon(state) //ARRAY HERE, WHATS GOING ON
 });
 
 const mapDispatchToProps = dispatch => ({
